@@ -10,27 +10,38 @@ public class menu_MainClass {
 		int num;
 		System.out.println("========Áß½Ä´ç==========");
 		while(true) {
-			System.out.println("¸Þ´º¸¦ ¼±ÅÃÇÏ¼¼¿ä");
-			System.out.println("1.Â¥Àå");
-			System.out.println("2.Â«»Í");
-			System.out.println(">>>>>");
-			num = input.nextInt();
+			System.out.println("1.¸Þ´º ¼±ÅÃ");
+			System.out.println("2.¼Ò½º, ¸Ê±â ¼±ÅÃ");
+			System.out.println("3.°³¼ö ¼±ÅÃ");
+			System.out.println(">>>>>>");
+			num= input.nextInt();
+			
+		
 			
 			switch(num) {
 			case 1 :
-	            
-	            System.out.println("Â¥Àå¸é");
+				System.out.println("1.Â¥Àå¸é 2.Â«»Í ");
+				System.out.println(">>>>>>");
+				num= input.nextInt();
+				if(num==1) {
+					System.out.println("Â¥Àå¸é ¼±ÅÃ");
+				}else {
+					System.out.println("Â«»Í ¼±ÅÃ");
+				}
 	            break;
 	            
 			case 2 :
+				System.out.println("¼Ò½ºÀÇ ¾ç, ¸Ê±â¸¦ ¼±ÅÃÇÏ¼¼¿ä ");
 	            
-	            System.out.println("Â«»Í");
 	            break;
-	                
-			}
 			
+			default : 
+				System.out.println("´Ù½Ã ¼±ÅÃÇÏ¼¼¿ä");    
+			}
+		
 		}
 
 	}
 
-}
+		}
+	
