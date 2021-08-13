@@ -2,10 +2,13 @@ package team2_project;
 
 import java.util.Scanner;
 
+import team2_project_jajang_hyeonwoo.jajang_hyeonwoo;
+
 public class menu_MainClass {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		jajang_hyeonwoo hy = new jajang_hyeonwoo();
 		
 		int num;
 		System.out.println("========중식당==========");
@@ -20,6 +23,8 @@ public class menu_MainClass {
 			case 1 :
 	            
 	            System.out.println("짜장면");
+	            hy.jajanInput();
+	
 	            break;
 	            
 			case 2 :
@@ -28,7 +33,7 @@ public class menu_MainClass {
 	            break;
 	                
 			}
-			
+
 		}
 
 	}
