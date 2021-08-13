@@ -2,11 +2,7 @@ package team2_project;
 
 import java.util.Scanner;
 
-<<<<<<< HEAD
-import team2_project_Menu_nayujin.menu_nayujin;
-=======
 
->>>>>>> master
 import team2_project_jungyooseok.spicy_jungyooseok;
 import team2_project_menu_nayujin.menu_nayujin;
 
