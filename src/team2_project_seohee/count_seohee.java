@@ -2,7 +2,7 @@ package team2_project_seohee;
 
 public class count_seohee {
 	
-		public int jajangCnt = 1;
+		public int jajangCnt = 0;
 		public int jjamppongCnt = 0;
 		
 		
