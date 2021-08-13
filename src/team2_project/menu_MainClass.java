@@ -2,8 +2,9 @@ package team2_project;
 
 import java.util.Scanner;
 
-import team2_project_Menu_nayujin.Menu_nayujin;
+
 import team2_project_jungyooseok.spicy_jungyooseok;
+import team2_project_menu_nayujin.menu_nayujin;
 
 
 public class menu_MainClass {
@@ -11,7 +12,7 @@ public class menu_MainClass {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		Menu_nayujin mn = new Menu_nayujin();
+		menu_nayujin mn = new menu_nayujin();
 		spicy_jungyooseok j = new spicy_jungyooseok();
 		
 		int num;
@@ -55,7 +56,7 @@ public class menu_MainClass {
 				
 			case 4 :
 				System.out.println("금액을 확인합니다");
-				
+				System.out.println("총 금액은 " );
 			default : 
 				System.out.println("다시 선택하세요");    
 			}

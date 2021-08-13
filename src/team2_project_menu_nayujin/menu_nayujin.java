@@ -1,10 +1,8 @@
-  
-package team2_project_Menu_nayujin;
+package team2_project_menu_nayujin;
 
-public class Menu_nayujin {
-
-int 	black_Price=4500, spicy_Price=6000,
-			sum = black_Price+spicy_Price;
+public class menu_nayujin {
+	int 	black_Price=4500, spicy=6000,
+			sum = black_Price+spicy;
 	
 	
 	
@@ -16,10 +14,11 @@ int 	black_Price=4500, spicy_Price=6000,
 	}
 	
 	void spicy_PriceUp(){
-		black_Price +=500;
+		spicy +=500;
 	}
 	
 	void spicy_PriceDown(){
-		black_Price -=500;
+		spicy -=500;
 	}
 }
+
