@@ -21,7 +21,7 @@ public class menu_MainClass {
 		while(true) {
 		System.out.println("1.¸Þ´º ¼±ÅÃ");
 		System.out.println("2.¼Ò½º, ¸Ê±â ¼±ÅÃ");
-		System.out.println("3.±Ý¾× È®ÀÎ");
+		System.out.println("3.ÁÖ¹® È®ÀÎ");
 		System.out.println(">>>>>>");
 		num= input.nextInt();
 
@@ -38,11 +38,9 @@ public class menu_MainClass {
 				if(ja == 1) {
 					cnt.jajangCntUp();
 					System.out.println("Â¥Àå¸é °¹¼ö: " + cnt.jajangCnt);
-					System.out.println("Â«»Í °¹¼ö: " + cnt.jjamppongCnt);
 				} else if(ja == 2 && cnt.jajangCnt>=0){
 					cnt.jajangCntDown();
 					System.out.println("Â¥Àå¸é °¹¼ö: " + cnt.jajangCnt);
-					System.out.println("Â«»Í °¹¼ö: " + cnt.jjamppongCnt);
 				}
 			}else {
 				System.out.println("1. Â«»Í Ãß°¡  2. Â«»Í Ãë¼Ò");
@@ -50,15 +48,13 @@ public class menu_MainClass {
 				if(jjam == 1) {
 					cnt.jjamppongCntUP();
 					System.out.println("Â«»Í °¹¼ö: " + cnt.jjamppongCnt);
-					System.out.println("Â¥Àå¸é °¹¼ö: " + cnt.jajangCnt);
 				} else if(jjam == 2 && cnt.jjamppongCnt>=0) {
 					cnt.jjamppongCntDown();
 					System.out.println("Â«»Í °¹¼ö: " + cnt.jjamppongCnt);
-					System.out.println("Â¥Àå¸é °¹¼ö: " + cnt.jajangCnt);
 				} else {System.out.println("¹øÈ£¸¦ È®ÀÎÇØÁÖ¼¼¿ä.");}
 			}
 			break;
-
+¤¤
 		case 2 :
 			System.out.println("1. ¸Ê±âÁ¤µµ UP, 2. ¸Ê±âÁ¤µµ Down");
 			int vi = input.nextInt();
@@ -71,10 +67,11 @@ public class menu_MainClass {
 			break;
 
 
-
 		case 3 :
-			System.out.println("±Ý¾×À» È®ÀÎÇÕ´Ï´Ù.");
-			
+			System.out.println("<ÁÖ¹® È®ÀÎ> ");
+		System.out.println("Â¥Àå¸é: " + cnt.jajangCnt +", Â«»Í: " + cnt.jjamppongCnt);
+		
+	
 		
 		default : 
 			System.out.println("´Ù½Ã ¼±ÅÃÇÏ¼¼¿ä");    
@@ -85,10 +82,9 @@ public class menu_MainClass {
 		}
 
 
-	}
+	
 
-	private static void nayujin() {
-		// TODO Auto-generated method stub
+	
 		
 	}
 
