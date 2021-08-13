@@ -2,8 +2,13 @@ package team2_project;
 
 import java.util.Scanner;
 
+<<<<<<< HEAD
 import team2_project_Menu_nayujin.menu_nayujin;
+=======
+
+>>>>>>> master
 import team2_project_jungyooseok.spicy_jungyooseok;
+import team2_project_menu_nayujin.menu_nayujin;
 
 
 public class menu_MainClass {
@@ -57,7 +62,7 @@ public class menu_MainClass {
 				
 			case 4 :
 				System.out.println("금액을 확인합니다");
-				
+				System.out.println("총 금액은 " );
 			default : 
 				System.out.println("다시 선택하세요");    
 			
