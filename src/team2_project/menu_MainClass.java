@@ -3,12 +3,14 @@ package team2_project;
 import java.util.Scanner;
 
 import team2_project_jajang_hyeonwoo.jajang_hyeonwoo;
+import team2_project_jungyooseok.spicy_jungyooseok;
 
 public class menu_MainClass {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		jajang_hyeonwoo hy = new jajang_hyeonwoo();
+		spicy_jungyooseok j = new spicy_jungyooseok();
 		
 		int num;
 		System.out.println("========Áß½Ä´ç==========");
@@ -16,6 +18,7 @@ public class menu_MainClass {
 			System.out.println("¸Þ´º¸¦ ¼±ÅÃÇÏ¼¼¿ä");
 			System.out.println("1.Â¥Àå");
 			System.out.println("2.Â«»Í");
+			System.out.println("3.¸Ê±â´Ü°è");
 			System.out.println(">>>>>");
 			num = input.nextInt();
 			
@@ -31,7 +34,19 @@ public class menu_MainClass {
 	            
 	            System.out.println("Â«»Í");
 	            break;
-	                
+	            
+			case 3 :
+				System.out.println("1. ¸Ê±âÁ¤µµ UP, 2. ¸Ê±âÁ¤µµ Down");
+				int vi = input.nextInt();
+				if(vi == 1) {
+					j.spicyUp();
+				}else if(vi  == 2 && j.spicy>0) {
+					j.spicyDown();
+				}
+				System.out.println("ÇöÀç ¸Ê±â ´Ü°è : "+j.spicy);
+				break;
+				
+	            
 			}
 
 		}
