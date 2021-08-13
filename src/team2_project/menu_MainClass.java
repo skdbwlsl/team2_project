@@ -54,7 +54,7 @@ public class menu_MainClass {
 				} else {System.out.println("번호를 확인해주세요.");}
 			}
 			break;
-ㄴ
+
 		case 2 :
 			System.out.println("1. 맵기정도 UP, 2. 맵기정도 Down");
 			int vi = input.nextInt();
