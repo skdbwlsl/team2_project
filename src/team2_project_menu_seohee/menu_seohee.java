@@ -1,19 +1,23 @@
 package team2_project_menu_seohee;
 
 public class menu_seohee {
-
-	int jajang;
-	int jjamppong;
-	int jajangCnt;
-	int jjamppongCnt;
+	public int jajangCnt = 0;
+	public int jjamppongCnt = 0;
 	
-	void jajangCntUp() {
-		for(jajang=0; jajang >= 100;  )
+	
+	public void jajangCntUp() {
 		jajangCnt++;
 	}
-	void jjamppongCntUP() {
-		for(jjamppong=0; jjamppong >= 100; )
+	public void jajangCntDown() {
+		jajangCnt--;
+	}
+	public void jjamppongCntUP() {
 		jjamppongCnt++;
 	}
+	public void jjamppongCntDown() {
+		jjamppongCnt--;
+	}
+
 	
+
 }
