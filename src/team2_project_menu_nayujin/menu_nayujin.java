@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 package team2_project_Menu_nayujin;
 
 public class Menu_nayujin {
 	int 	black_Price=4500, spicy_Price=6000,
+=======
+  
+package team2_project_Menu_nayujin;
+
+public class Menu_nayujin {
+
+int 	black_Price=4500, spicy_Price=6000,
+>>>>>>> master
 			sum = black_Price+spicy_Price;
 	
 	
@@ -20,6 +29,10 @@ public class Menu_nayujin {
 	void spicy_PriceDown(){
 		black_Price -=500;
 	}
+<<<<<<< HEAD
 
 
 }
+=======
+}
+>>>>>>> master
