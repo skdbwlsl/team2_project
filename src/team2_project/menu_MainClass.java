@@ -3,6 +3,7 @@ package team2_project;
 import java.util.Scanner;
 
 import team2_project_jungyooseok.spicy_jungyooseok;
+import team2_project_menu_yujin.menu_yujin;
 import team2_project_seohee.count_seohee;
 
 public class menu_MainClass {
@@ -12,7 +13,7 @@ public class menu_MainClass {
 
 		count_seohee cnt;
 		cnt = new count_seohee();
-
+		menu_yujin mn = new menu_yujin();
 
 		spicy_jungyooseok j = new spicy_jungyooseok();
 
@@ -72,8 +73,9 @@ public class menu_MainClass {
 
 
 		case 3 :
-			System.out.println("금액을 확인합니다");
-			System.out.println("총 금액은 " );
+			System.out.println("금액을 확인합니다.");
+			
+		
 		default : 
 			System.out.println("다시 선택하세요");    
 		}
@@ -83,6 +85,11 @@ public class menu_MainClass {
 		}
 
 
+	}
+
+	private static void nayujin() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
