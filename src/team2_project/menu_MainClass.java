@@ -13,6 +13,7 @@ public class menu_MainClass {
 			System.out.println("1.메뉴 선택");
 			System.out.println("2.소스, 맵기 선택");
 			System.out.println("3.개수 선택");
+			System.out.println("4.금액 확인");
 			System.out.println(">>>>>>");
 			num= input.nextInt();
 			
@@ -34,7 +35,12 @@ public class menu_MainClass {
 				System.out.println("소스의 양, 맵기를 선택하세요 ");
 	            
 	            break;
+	            
+			case 3 :
+				System.out.println("개수를 선택하세요");
 			
+			case 4 :
+				System.out.println("금액을 확인합니다");
 			default : 
 				System.out.println("다시 선택하세요");    
 			}
