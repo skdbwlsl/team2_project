@@ -60,7 +60,7 @@ public class menu_MainClass {
 				
 			case 4 :
 				System.out.println("금액을 확인합니다");
-				System.out.println("총 금액은 " );
+				System.out.println("총 금액은 "  );
 			default : 
 				System.out.println("다시 선택하세요");    
 			
