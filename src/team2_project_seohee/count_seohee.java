@@ -1,9 +1,8 @@
 package team2_project_seohee;
 
-public class cnt_seohee {
-
-	public class menu_seohee {
-		public int jajangCnt = 0;
+public class count_seohee {
+	
+		public int jajangCnt = 1;
 		public int jjamppongCnt = 0;
 		
 		
@@ -19,9 +18,8 @@ public class cnt_seohee {
 		public void jjamppongCntDown() {
 			jjamppongCnt--;
 		}
+	}
 
 		
 
-	}
 
-}
